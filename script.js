@@ -32,6 +32,6 @@ db.ref = function(...arg) {
         db.ref = _ref;
         onPath(arg[0]);
     }
-    return r.call(this, ...arg);
+    return _ref.call(this, ...arg);
 }
 })();
